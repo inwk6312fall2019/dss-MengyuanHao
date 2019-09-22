@@ -6,3 +6,6 @@ def nested_sum(list):
         elif isinstance(item,list):
            total = total + nested_sum(item)
     return total
+
+list = [[12],[13],[5,4]]
+print(nested_sum(list))
